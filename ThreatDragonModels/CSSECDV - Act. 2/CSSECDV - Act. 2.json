@@ -2654,13 +2654,120 @@
                 "informationDisclosure": 1,
                 "denialOfService": 0
               }
+            }
+          },
+          {
+            "position": {
+              "x": 423,
+              "y": 775
             },
-            "tools": {
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
               "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
+                {
+                  "group": "top",
+                  "id": "0ab4855c-7e85-461a-87bf-36d9bc1de085"
+                },
+                {
+                  "group": "right",
+                  "id": "ef2f2511-0645-4c0b-8245-9b6eaeb6ca99"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c8b28f6d-f0c6-47ce-ab02-45512d0d06f9"
+                },
+                {
+                  "group": "left",
+                  "id": "a33773fc-fa0b-41ee-87ba-41d99bb1bc14"
+                }
+              ]
+            },
+            "id": "e033ddfd-8edb-48a9-9bdd-144ff8beda64",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Actor",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
             }
           }
         ]
@@ -2668,6 +2775,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "",
-    "threatTop": 9
+    "threatTop": 11
   }
 }
