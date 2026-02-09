@@ -450,7 +450,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User Is Authenticated",
+              "name": "User Sends User Credentials",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -464,7 +464,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "User Is Authenticated"
+              "User Sends User Credentials"
             ],
             "id": "d6981f84-9cf8-47d1-8a0a-72db3826e7d7",
             "source": {
@@ -478,6 +478,10 @@
             "vertices": [
               {
                 "x": 320,
+                "y": 610
+              },
+              {
+                "x": 440,
                 "y": 610
               }
             ]
@@ -554,7 +558,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User Sends User Credentials",
+              "name": "User Is Authenticated",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -568,7 +572,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "User Sends User Credentials"
+              "User Is Authenticated"
             ],
             "id": "86487f69-e8df-4d47-adc7-09628ceeed83",
             "source": {
@@ -580,6 +584,10 @@
               "port": "be29cf5b-d895-4618-906c-b9d7dcfcb62b"
             },
             "vertices": [
+              {
+                "x": 360,
+                "y": 580
+              },
               {
                 "x": 310,
                 "y": 580
@@ -1033,6 +1041,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1116,7 +1125,6 @@
               ]
             },
             "id": "c1f74676-0b1a-4151-9739-5733b510fb64",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Authorization Provider",
@@ -1156,6 +1164,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1239,7 +1248,6 @@
               ]
             },
             "id": "ab9f543f-7098-4e30-a78a-31e3160804da",
-            "zIndex": 12,
             "data": {
               "type": "tm.Store",
               "name": "LDAP",
